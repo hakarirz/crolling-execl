@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import openpyxl
 
-fpath = r'C:\vspy\TEST2\주식.xlsx'
+fpath = r"C:\vspy\TEST2\엑셀 주식\주식.xlsx"
 wb = openpyxl.load_workbook(fpath)
 ws = wb.active
 
